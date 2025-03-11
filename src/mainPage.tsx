@@ -20,7 +20,7 @@ const Main: React.FC = () => {
   }
   return (
     <div className='App'>
-      <span className='Heading'>Taskify</span>
+      <span className='Heading'>Taskify By Obi</span>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
       <TodoList todos={todos} setTodos={setTodos}/>
     </div>
