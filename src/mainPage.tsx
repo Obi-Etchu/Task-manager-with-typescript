@@ -14,7 +14,7 @@ const Main: React.FC = () => {
     e.preventDefault()
     if(todo){
       setTodos([...todos, {id:Date.now(), todo:todo, isDone:false}])
-      setTodos("");
+      setTodo("");
       console.log(todos)
     }
   }
